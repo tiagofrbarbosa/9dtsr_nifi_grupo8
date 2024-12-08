@@ -2,62 +2,346 @@
   "clientes": [
     {
       "id_cliente": 1,
-      "nome": "João Silva",
-      "cpf": "123.456.789-00",
-      "dt_nascimento": "1985-03-15",
-      "endereco": "Rua das Flores, 123, São Paulo - SP",
-      "email": "joao.silva@email.com",
-      "telefone": "(11) 98765-4321",
+      "nome": "Vickie Price",
+      "cpf": "860-23-2886",
+      "dt_nascimento": "2004-11-21",
+      "endereco": "590 Meza Port Apt. 937, Gregoryton, AR 30991",
+      "email": "foxaaron@harris.com",
+      "telefone": "0292185156",
       "contatos": [
         {
-          "id_contato": 1,
-          "tipo_contato": "Celular",
-          "valor_contato": "(11) 91234-5678",
-          "descricao": "Contato pessoal"
-        },
-        {
-          "id_contato": 2,
-          "tipo_contato": "E-mail alternativo",
-          "valor_contato": "joao.silva.work@email.com",
+          "id_contato": 10,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "001-407-859-3213x34803",
           "descricao": "E-mail de trabalho"
         }
       ],
       "documentos": [
         {
-          "id_documento": 1,
+          "id_documento": 10,
           "tipo_documento": "RG",
-          "data_inclusao": "2024-10-28",
-          "conteudo": "BASE64_ENCODED_CONTENT"
-        },
-        {
-          "id_documento": 2,
-          "tipo_documento": "CNH",
-          "data_inclusao": "2024-10-28",
+          "data_inclusao": "2024-05-09",
           "conteudo": "BASE64_ENCODED_CONTENT"
         }
       ]
     },
     {
       "id_cliente": 2,
-      "nome": "Maria Oliveira",
-      "cpf": "987.654.321-00",
-      "dt_nascimento": "1990-07-22",
-      "endereco": "Avenida Central, 456, Rio de Janeiro - RJ",
-      "email": "maria.oliveira@email.com",
-      "telefone": "(21) 99876-5432",
+      "nome": "Patricia Bradley",
+      "cpf": "187-78-5214",
+      "dt_nascimento": "1983-10-24",
+      "endereco": "PSC 9391, Box 7251, APO AE 45958",
+      "email": "daisymccarty@hotmail.com",
+      "telefone": "+1-570-433-1541x00676",
       "contatos": [
         {
-          "id_contato": 3,
+          "id_contato": 20,
+          "tipo_contato": "Celular",
+          "valor_contato": "545-226-7528",
+          "descricao": "E-mail de trabalho"
+        },
+        {
+          "id_contato": 21,
           "tipo_contato": "Telefone fixo",
-          "valor_contato": "(21) 2345-6789",
+          "valor_contato": "001-953-926-4422x096",
           "descricao": "Residencial"
         }
       ],
       "documentos": [
         {
-          "id_documento": 3,
+          "id_documento": 20,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-02-05",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 21,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-09-25",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 3,
+      "nome": "Matthew Lawson",
+      "cpf": "445-21-0878",
+      "dt_nascimento": "1955-04-03",
+      "endereco": "68844 Young Causeway, Armstrongfort, AR 47795",
+      "email": "qmiller@greene.com",
+      "telefone": "+1-417-146-7741x8625",
+      "contatos": [
+        {
+          "id_contato": 30,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "(765)861-7932x71040",
+          "descricao": "WhatsApp pessoal"
+        },
+        {
+          "id_contato": 31,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "411-526-2181x59970",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 30,
           "tipo_documento": "Passaporte",
-          "data_inclusao": "2024-10-28",
+          "data_inclusao": "2024-02-04",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 31,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-11-15",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 4,
+      "nome": "Melissa Mayer",
+      "cpf": "587-31-7804",
+      "dt_nascimento": "2004-03-11",
+      "endereco": "089 David Throughway Suite 223, East Brad, TX 57568",
+      "email": "maryscott@sloan.biz",
+      "telefone": "+1-548-709-9861",
+      "contatos": [
+        {
+          "id_contato": 40,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "(527)047-7434x9021",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 41,
+          "tipo_contato": "Celular",
+          "valor_contato": "586-938-0686",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 40,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-07-30",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 41,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-07-04",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 5,
+      "nome": "Sherry Baker",
+      "cpf": "671-63-9373",
+      "dt_nascimento": "1972-02-20",
+      "endereco": "46299 Williams Isle, North Julie, KY 49317",
+      "email": "lisa44@cameron-garrison.com",
+      "telefone": "247.546.9137",
+      "contatos": [
+        {
+          "id_contato": 50,
+          "tipo_contato": "Celular",
+          "valor_contato": "(299)911-9148",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 50,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-03-28",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 51,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-02-24",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 6,
+      "nome": "Christopher Kline",
+      "cpf": "767-89-1481",
+      "dt_nascimento": "1958-04-27",
+      "endereco": "29333 Joseph Lodge Apt. 072, New Lauren, KS 80237",
+      "email": "rodney65@yahoo.com",
+      "telefone": "374-896-9108x589",
+      "contatos": [
+        {
+          "id_contato": 60,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "(785)082-1486x28902",
+          "descricao": "WhatsApp pessoal"
+        },
+        {
+          "id_contato": 61,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "303.070.5345",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 62,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "861.035.7972x798",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 60,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-09-04",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 61,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-07-16",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 7,
+      "nome": "John Figueroa",
+      "cpf": "743-72-3000",
+      "dt_nascimento": "1985-05-19",
+      "endereco": "USNV Pena, FPO AE 47068",
+      "email": "robert55@richards-ford.com",
+      "telefone": "099.917.3816x8460",
+      "contatos": [
+        {
+          "id_contato": 70,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "417-154-5444x3283",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 71,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "9652074466",
+          "descricao": "E-mail de trabalho"
+        },
+        {
+          "id_contato": 72,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "(099)353-8758x4282",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 70,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-01-24",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 71,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-09-09",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 8,
+      "nome": "Madeline Powell",
+      "cpf": "489-50-0077",
+      "dt_nascimento": "2003-03-13",
+      "endereco": "505 Andrew Avenue, East Heather, ME 17400",
+      "email": "tgordon@brown.com",
+      "telefone": "789-856-2575x3260",
+      "contatos": [
+        {
+          "id_contato": 80,
+          "tipo_contato": "Celular",
+          "valor_contato": "(235)697-2521",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 81,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "525.007.4329x2712",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 80,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-09-05",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 9,
+      "nome": "Kara Hernandez",
+      "cpf": "712-88-0153",
+      "dt_nascimento": "1959-06-24",
+      "endereco": "849 Robert Cove, West Danielville, ID 80324",
+      "email": "marie35@ortiz.com",
+      "telefone": "001-753-001-1972x181",
+      "contatos": [
+        {
+          "id_contato": 90,
+          "tipo_contato": "Celular",
+          "valor_contato": "230.982.1506",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 91,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "+1-489-090-1001x6761",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 90,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-09-17",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 91,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-02-26",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 10,
+      "nome": "Brian York",
+      "cpf": "047-02-2268",
+      "dt_nascimento": "1993-03-04",
+      "endereco": "5794 Nathan Junctions, North Richard, KY 51057",
+      "email": "zbanks@gmail.com",
+      "telefone": "202-169-7972",
+      "contatos": [
+        {
+          "id_contato": 100,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "001-143-744-7012x0455",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 100,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-11-18",
           "conteudo": "BASE64_ENCODED_CONTENT"
         }
       ]
