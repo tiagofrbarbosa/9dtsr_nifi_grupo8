@@ -2,62 +2,1694 @@
   "clientes": [
     {
       "id_cliente": 1,
-      "nome": "João Silva",
-      "cpf": "123.456.789-00",
-      "dt_nascimento": "1985-03-15",
-      "endereco": "Rua das Flores, 123, São Paulo - SP",
-      "email": "joao.silva@email.com",
-      "telefone": "(11) 98765-4321",
+      "nome": "Jerry Ramirez",
+      "cpf": "891-01-2616",
+      "dt_nascimento": "1987-06-13",
+      "endereco": "2351 Noah Knolls Suite 940, Herrerafurt, OH 38928",
+      "email": "janetwilliams@gmail.com",
+      "telefone": "001-413-164-7525x53419",
       "contatos": [
         {
-          "id_contato": 1,
-          "tipo_contato": "Celular",
-          "valor_contato": "(11) 91234-5678",
-          "descricao": "Contato pessoal"
+          "id_contato": 10,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "043-321-8196",
+          "descricao": "E-mail de trabalho"
         },
         {
-          "id_contato": 2,
-          "tipo_contato": "E-mail alternativo",
-          "valor_contato": "joao.silva.work@email.com",
-          "descricao": "E-mail de trabalho"
+          "id_contato": 11,
+          "tipo_contato": "Celular",
+          "valor_contato": "0133890838",
+          "descricao": "Residencial"
         }
       ],
       "documentos": [
         {
-          "id_documento": 1,
+          "id_documento": 10,
           "tipo_documento": "RG",
-          "data_inclusao": "2024-10-28",
+          "data_inclusao": "2024-04-09",
           "conteudo": "BASE64_ENCODED_CONTENT"
         },
         {
-          "id_documento": 2,
+          "id_documento": 11,
           "tipo_documento": "CNH",
-          "data_inclusao": "2024-10-28",
+          "data_inclusao": "2024-06-24",
           "conteudo": "BASE64_ENCODED_CONTENT"
         }
       ]
     },
     {
       "id_cliente": 2,
-      "nome": "Maria Oliveira",
-      "cpf": "987.654.321-00",
-      "dt_nascimento": "1990-07-22",
-      "endereco": "Avenida Central, 456, Rio de Janeiro - RJ",
-      "email": "maria.oliveira@email.com",
-      "telefone": "(21) 99876-5432",
+      "nome": "Brenda Snyder PhD",
+      "cpf": "882-15-2505",
+      "dt_nascimento": "1987-02-22",
+      "endereco": "166 Rice Plaza Apt. 184, Danielchester, NH 00926",
+      "email": "williamrodriguez@hotmail.com",
+      "telefone": "893-252-8809x5701",
       "contatos": [
         {
-          "id_contato": 3,
-          "tipo_contato": "Telefone fixo",
-          "valor_contato": "(21) 2345-6789",
+          "id_contato": 20,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "(832)764-8350",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 21,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "056.413.9537",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 22,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "(724)238-8496x9653",
           "descricao": "Residencial"
         }
       ],
       "documentos": [
         {
-          "id_documento": 3,
+          "id_documento": 20,
           "tipo_documento": "Passaporte",
-          "data_inclusao": "2024-10-28",
+          "data_inclusao": "2024-01-29",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 3,
+      "nome": "Shane Henderson",
+      "cpf": "217-70-3296",
+      "dt_nascimento": "1968-08-19",
+      "endereco": "578 Martinez Fork Apt. 509, New Jeffrey, VT 83220",
+      "email": "carlosjohnson@jones-young.info",
+      "telefone": "829.973.7631",
+      "contatos": [
+        {
+          "id_contato": 30,
+          "tipo_contato": "Celular",
+          "valor_contato": "303-911-7182x2782",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 30,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-06-20",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 4,
+      "nome": "Tammy Allison",
+      "cpf": "171-53-7957",
+      "dt_nascimento": "1950-07-13",
+      "endereco": "26064 Mitchell Square Suite 234, North Beth, AR 98539",
+      "email": "williamsthomas@hotmail.com",
+      "telefone": "(081)219-1361",
+      "contatos": [
+        {
+          "id_contato": 40,
+          "tipo_contato": "Celular",
+          "valor_contato": "+1-656-670-1065x13338",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 41,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "262.473.1781x080",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 40,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-05-07",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 41,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-07-24",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 5,
+      "nome": "Dean Santiago",
+      "cpf": "322-31-4352",
+      "dt_nascimento": "2004-07-08",
+      "endereco": "5107 Charles Forest Suite 251, West Justin, ND 92715",
+      "email": "contrerasangela@hotmail.com",
+      "telefone": "241-182-4493",
+      "contatos": [
+        {
+          "id_contato": 50,
+          "tipo_contato": "Celular",
+          "valor_contato": "001-399-091-6998",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 50,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-07-23",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 6,
+      "nome": "Andrew Diaz",
+      "cpf": "816-06-5863",
+      "dt_nascimento": "1992-10-07",
+      "endereco": "158 Dickson Summit, East Michelle, HI 54541",
+      "email": "jillcook@pham-shields.com",
+      "telefone": "216-073-3754x330",
+      "contatos": [
+        {
+          "id_contato": 60,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "348-740-1640x05242",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 61,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "001-786-801-1280x5982",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 60,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-10-11",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 7,
+      "nome": "Teresa Mclaughlin",
+      "cpf": "202-47-7067",
+      "dt_nascimento": "1988-11-06",
+      "endereco": "514 Estrada Islands Suite 482, South Elizabeth, TX 98560",
+      "email": "richard04@clark-floyd.org",
+      "telefone": "+1-577-738-7214x8951",
+      "contatos": [
+        {
+          "id_contato": 70,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "654.145.8685",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 71,
+          "tipo_contato": "Celular",
+          "valor_contato": "1429401965",
+          "descricao": "WhatsApp pessoal"
+        },
+        {
+          "id_contato": 72,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "001-569-816-9340x6088",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 70,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-09-01",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 8,
+      "nome": "Janet Ross",
+      "cpf": "152-84-0091",
+      "dt_nascimento": "1999-08-18",
+      "endereco": "3287 Angela Vista, South Dennismouth, NC 73760",
+      "email": "usalazar@hotmail.com",
+      "telefone": "(872)774-3487x34714",
+      "contatos": [
+        {
+          "id_contato": 80,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "001-343-320-0379x17693",
+          "descricao": "WhatsApp pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 80,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-01-09",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 81,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-07-22",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 9,
+      "nome": "Sara Calhoun",
+      "cpf": "638-69-0442",
+      "dt_nascimento": "1959-11-22",
+      "endereco": "PSC 9901, Box 6272, APO AE 34600",
+      "email": "jason55@yahoo.com",
+      "telefone": "641-708-0531x003",
+      "contatos": [
+        {
+          "id_contato": 90,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "558-122-3623x166",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 91,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "876-036-6909x67054",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 92,
+          "tipo_contato": "Celular",
+          "valor_contato": "001-668-893-7346x70656",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 90,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-03-10",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 91,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-09-08",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 10,
+      "nome": "Jacob Hunter",
+      "cpf": "350-02-6883",
+      "dt_nascimento": "1957-07-02",
+      "endereco": "5726 Jessica Run, Christinaside, NJ 61432",
+      "email": "marcus31@yahoo.com",
+      "telefone": "379.965.0752x735",
+      "contatos": [
+        {
+          "id_contato": 100,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "9232719374",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 101,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "001-529-912-4190x49663",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 102,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "931-491-9058",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 100,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-11-17",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 101,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-07-16",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 11,
+      "nome": "Jessica Reese",
+      "cpf": "339-46-7435",
+      "dt_nascimento": "1998-03-24",
+      "endereco": "13518 James Streets Suite 498, Tinaborough, IN 47802",
+      "email": "alexis82@williams-brown.com",
+      "telefone": "001-271-094-7775x204",
+      "contatos": [
+        {
+          "id_contato": 110,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "549-480-8313x678",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 111,
+          "tipo_contato": "Celular",
+          "valor_contato": "001-377-701-4363x49578",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 110,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-06-27",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 12,
+      "nome": "Wanda Torres",
+      "cpf": "636-08-9989",
+      "dt_nascimento": "2002-07-29",
+      "endereco": "USS Meza, FPO AE 82488",
+      "email": "donna23@arnold.com",
+      "telefone": "(797)403-4471x34936",
+      "contatos": [
+        {
+          "id_contato": 120,
+          "tipo_contato": "Celular",
+          "valor_contato": "116.719.0229x4131",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 121,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "+1-699-938-6774",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 120,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-04-28",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 121,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-05-29",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 13,
+      "nome": "Jessica Harrison",
+      "cpf": "312-90-6595",
+      "dt_nascimento": "1951-09-29",
+      "endereco": "USCGC Kim, FPO AP 05725",
+      "email": "cassandra01@gmail.com",
+      "telefone": "+1-990-490-2787x42967",
+      "contatos": [
+        {
+          "id_contato": 130,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "+1-324-210-2499",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 130,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-04-25",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 14,
+      "nome": "Dwayne Gilmore",
+      "cpf": "497-16-0473",
+      "dt_nascimento": "1950-02-21",
+      "endereco": "Unit 9324 Box 8086, DPO AE 29952",
+      "email": "pvalentine@jimenez.com",
+      "telefone": "467.737.8263x98214",
+      "contatos": [
+        {
+          "id_contato": 140,
+          "tipo_contato": "Celular",
+          "valor_contato": "565.512.5674x6807",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 141,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "545-168-0876",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 142,
+          "tipo_contato": "Celular",
+          "valor_contato": "3859770348",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 140,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-09-06",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 141,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2023-12-10",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 15,
+      "nome": "Brian Kirk",
+      "cpf": "103-68-7487",
+      "dt_nascimento": "1996-07-06",
+      "endereco": "2174 Hanson Locks, Port Markside, MD 82656",
+      "email": "williamsonjimmy@hotmail.com",
+      "telefone": "316-117-2400x5045",
+      "contatos": [
+        {
+          "id_contato": 150,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "(584)044-9972x78755",
+          "descricao": "WhatsApp pessoal"
+        },
+        {
+          "id_contato": 151,
+          "tipo_contato": "Celular",
+          "valor_contato": "+1-867-533-9636",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 152,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "5766270289",
+          "descricao": "WhatsApp pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 150,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-06-06",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 16,
+      "nome": "Ashley James",
+      "cpf": "368-74-4848",
+      "dt_nascimento": "1969-06-10",
+      "endereco": "Unit 4064 Box 0909, DPO AP 65608",
+      "email": "catherinegomez@hotmail.com",
+      "telefone": "942.104.7095",
+      "contatos": [
+        {
+          "id_contato": 160,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "(238)692-2219x69379",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 161,
+          "tipo_contato": "Celular",
+          "valor_contato": "(374)740-7482",
+          "descricao": "E-mail de trabalho"
+        },
+        {
+          "id_contato": 162,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "759-464-7436",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 160,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-11-21",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 17,
+      "nome": "Terri Murphy",
+      "cpf": "625-29-1036",
+      "dt_nascimento": "1993-10-08",
+      "endereco": "461 Brandon Camp Suite 711, New Derek, MN 88382",
+      "email": "nicolepena@yahoo.com",
+      "telefone": "+1-640-537-7351x585",
+      "contatos": [
+        {
+          "id_contato": 170,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "(145)623-2858",
+          "descricao": "WhatsApp pessoal"
+        },
+        {
+          "id_contato": 171,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "424.745.1712x36851",
+          "descricao": "WhatsApp pessoal"
+        },
+        {
+          "id_contato": 172,
+          "tipo_contato": "Celular",
+          "valor_contato": "(048)175-4965x1370",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 170,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-06-27",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 18,
+      "nome": "Brianna Anderson",
+      "cpf": "257-23-1802",
+      "dt_nascimento": "1948-01-20",
+      "endereco": "05395 Grant Center, Lake Robert, WA 08831",
+      "email": "gstrickland@hotmail.com",
+      "telefone": "783-908-4700",
+      "contatos": [
+        {
+          "id_contato": 180,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "(431)713-9005x3293",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 181,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "839-335-2904",
+          "descricao": "WhatsApp pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 180,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-07-11",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 19,
+      "nome": "Maurice Brooks",
+      "cpf": "157-88-7771",
+      "dt_nascimento": "1976-07-12",
+      "endereco": "61528 Brenda Points, Elizabethchester, TN 98842",
+      "email": "schmittcaroline@yahoo.com",
+      "telefone": "983-273-1585",
+      "contatos": [
+        {
+          "id_contato": 190,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "(617)711-5921x2499",
+          "descricao": "E-mail de trabalho"
+        },
+        {
+          "id_contato": 191,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "+1-569-847-8961",
+          "descricao": "E-mail de trabalho"
+        },
+        {
+          "id_contato": 192,
+          "tipo_contato": "Celular",
+          "valor_contato": "001-183-673-6576x615",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 190,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-06-08",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 20,
+      "nome": "Jacob Griffith",
+      "cpf": "796-73-9769",
+      "dt_nascimento": "1951-10-02",
+      "endereco": "29014 Stanley Oval, Perryborough, NY 15419",
+      "email": "rrodriguez@hotmail.com",
+      "telefone": "001-784-036-9003",
+      "contatos": [
+        {
+          "id_contato": 200,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "001-493-689-9809x40244",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 201,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "502-296-1201x83667",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 200,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-11-28",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 201,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-05-18",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 21,
+      "nome": "Jared Bowman",
+      "cpf": "297-15-6637",
+      "dt_nascimento": "1964-06-11",
+      "endereco": "97516 John Radial Suite 816, Juliebury, WI 22538",
+      "email": "schmidtjames@bell-mullen.com",
+      "telefone": "124.329.2127",
+      "contatos": [
+        {
+          "id_contato": 210,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "244.510.7622",
+          "descricao": "E-mail de trabalho"
+        },
+        {
+          "id_contato": 211,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "(838)851-6060x7159",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 210,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-07-16",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 22,
+      "nome": "Jordan Collins",
+      "cpf": "463-05-0933",
+      "dt_nascimento": "1975-07-04",
+      "endereco": "19986 Carpenter Turnpike Apt. 793, Cassidyhaven, AR 59551",
+      "email": "toni18@thompson.info",
+      "telefone": "892.554.6659x05151",
+      "contatos": [
+        {
+          "id_contato": 220,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "001-997-995-5271x77449",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 220,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-07-25",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 23,
+      "nome": "Ralph Lee",
+      "cpf": "141-20-1265",
+      "dt_nascimento": "1981-11-26",
+      "endereco": "880 Walter River, New Nicholas, HI 91313",
+      "email": "xwilliams@ball.info",
+      "telefone": "834.735.9774",
+      "contatos": [
+        {
+          "id_contato": 230,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "+1-644-925-1925x46291",
+          "descricao": "E-mail de trabalho"
+        },
+        {
+          "id_contato": 231,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "865-281-6850x5423",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 230,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2023-12-20",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 24,
+      "nome": "Brett Espinoza",
+      "cpf": "344-19-2255",
+      "dt_nascimento": "1996-11-19",
+      "endereco": "277 Rebecca Brook Suite 328, Rodriguezport, ME 16471",
+      "email": "robertbauer@brown-copeland.info",
+      "telefone": "+1-808-932-4609x539",
+      "contatos": [
+        {
+          "id_contato": 240,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "(886)239-2407x5818",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 241,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "412-478-2613",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 242,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "506.068.5361x530",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 240,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-01-22",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 241,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-10-25",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 25,
+      "nome": "Joshua Li",
+      "cpf": "180-88-7613",
+      "dt_nascimento": "1972-04-12",
+      "endereco": "Unit 7221 Box 7043, DPO AE 26645",
+      "email": "sarah86@kennedy.com",
+      "telefone": "(054)156-6765x277",
+      "contatos": [
+        {
+          "id_contato": 250,
+          "tipo_contato": "Celular",
+          "valor_contato": "(185)188-8880",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 251,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "(706)540-5153x1952",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 250,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-06-04",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 26,
+      "nome": "Mitchell Jackson",
+      "cpf": "455-45-7326",
+      "dt_nascimento": "1968-12-06",
+      "endereco": "640 Emily Lodge Suite 820, Port Cathy, NV 05062",
+      "email": "youngdeanna@reyes-bradley.org",
+      "telefone": "(755)719-2856",
+      "contatos": [
+        {
+          "id_contato": 260,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "416.169.2845x11544",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 260,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-11-20",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 261,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-08-11",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 27,
+      "nome": "Donna Evans",
+      "cpf": "162-92-2853",
+      "dt_nascimento": "1965-04-30",
+      "endereco": "32370 Spencer Land, Laraside, RI 11801",
+      "email": "raymond78@hammond-morrow.com",
+      "telefone": "(517)785-2892",
+      "contatos": [
+        {
+          "id_contato": 270,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "+1-431-027-8681x4473",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 271,
+          "tipo_contato": "Celular",
+          "valor_contato": "+1-473-121-7271x551",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 270,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-09-24",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 28,
+      "nome": "Courtney Meza",
+      "cpf": "532-37-1293",
+      "dt_nascimento": "1996-03-07",
+      "endereco": "49818 Brittany Prairie Apt. 299, Meganshire, AK 11147",
+      "email": "debra96@fowler.com",
+      "telefone": "+1-473-647-1027x6773",
+      "contatos": [
+        {
+          "id_contato": 280,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "(680)182-4225",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 280,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-02-16",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 281,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-04-25",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 29,
+      "nome": "Kathleen Davis",
+      "cpf": "403-65-7492",
+      "dt_nascimento": "1967-01-31",
+      "endereco": "Unit 3950 Box 0479, DPO AP 88649",
+      "email": "amanda16@gmail.com",
+      "telefone": "565-060-9835x841",
+      "contatos": [
+        {
+          "id_contato": 290,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "+1-255-562-5881x537",
+          "descricao": "WhatsApp pessoal"
+        },
+        {
+          "id_contato": 291,
+          "tipo_contato": "Celular",
+          "valor_contato": "473-210-4696",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 292,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "259.532.7877",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 290,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2023-12-23",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 30,
+      "nome": "Jennifer Williams",
+      "cpf": "040-18-5457",
+      "dt_nascimento": "1970-03-23",
+      "endereco": "98259 Martin Ridges Suite 958, Ericksonport, AK 48782",
+      "email": "whitneybrandy@hotmail.com",
+      "telefone": "001-097-499-3097x289",
+      "contatos": [
+        {
+          "id_contato": 300,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "784.991.2165x58523",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 300,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-08-23",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 31,
+      "nome": "Hector Ingram",
+      "cpf": "739-88-4332",
+      "dt_nascimento": "1996-08-23",
+      "endereco": "48434 Bush Spurs, Stewartstad, WY 95090",
+      "email": "david86@yahoo.com",
+      "telefone": "(240)415-7473x384",
+      "contatos": [
+        {
+          "id_contato": 310,
+          "tipo_contato": "Celular",
+          "valor_contato": "(230)913-0756x2636",
+          "descricao": "WhatsApp pessoal"
+        },
+        {
+          "id_contato": 311,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "970.283.8578x65278",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 310,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-04-05",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 311,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-02-22",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 32,
+      "nome": "Lance Hebert",
+      "cpf": "344-37-7445",
+      "dt_nascimento": "1982-03-07",
+      "endereco": "Unit 8872 Box 8743, DPO AE 43844",
+      "email": "twong@smith.com",
+      "telefone": "001-329-668-5161",
+      "contatos": [
+        {
+          "id_contato": 320,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "001-421-993-3083x301",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 321,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "(571)208-2677x34540",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 322,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "001-193-802-6206x72400",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 320,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-09-27",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 33,
+      "nome": "Susan Todd",
+      "cpf": "822-86-3579",
+      "dt_nascimento": "1956-07-04",
+      "endereco": "785 Samantha Creek, Port Amyhaven, OK 70842",
+      "email": "markmeyer@frazier.org",
+      "telefone": "187.072.8679x0874",
+      "contatos": [
+        {
+          "id_contato": 330,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "(753)046-3745",
+          "descricao": "WhatsApp pessoal"
+        },
+        {
+          "id_contato": 331,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "990-453-0174x2684",
+          "descricao": "E-mail de trabalho"
+        },
+        {
+          "id_contato": 332,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "001-145-933-2727x956",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 330,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-07-16",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 331,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-03-29",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 34,
+      "nome": "Amy Shannon",
+      "cpf": "484-05-4704",
+      "dt_nascimento": "1993-02-25",
+      "endereco": "656 Kane Lane, Millerside, SD 46083",
+      "email": "victorialong@luna.com",
+      "telefone": "001-047-868-6337x52431",
+      "contatos": [
+        {
+          "id_contato": 340,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "6403910651",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 340,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-11-09",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 341,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-02-10",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 35,
+      "nome": "Susan Garrett",
+      "cpf": "438-72-8121",
+      "dt_nascimento": "1946-02-15",
+      "endereco": "685 Russell Hills Suite 287, Port Jeremiah, VT 19421",
+      "email": "harttammy@hotmail.com",
+      "telefone": "263.435.1751x83046",
+      "contatos": [
+        {
+          "id_contato": 350,
+          "tipo_contato": "Celular",
+          "valor_contato": "+1-690-331-1907x90306",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 351,
+          "tipo_contato": "Celular",
+          "valor_contato": "383.028.4395x995",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 352,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "428.364.4089",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 350,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-04-06",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 351,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-11-08",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 36,
+      "nome": "Tonya Wilson",
+      "cpf": "773-62-3975",
+      "dt_nascimento": "1989-10-11",
+      "endereco": "3854 Owens Run, Kylestad, NM 61581",
+      "email": "ugill@wood.com",
+      "telefone": "001-320-489-9642",
+      "contatos": [
+        {
+          "id_contato": 360,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "+1-901-398-3735x403",
+          "descricao": "WhatsApp pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 360,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-06-17",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 361,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-10-23",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 37,
+      "nome": "Katherine Stark",
+      "cpf": "556-83-0963",
+      "dt_nascimento": "1957-04-14",
+      "endereco": "006 Megan Fort, Lake Edwardborough, NH 49417",
+      "email": "bhopkins@patel.com",
+      "telefone": "8484086211",
+      "contatos": [
+        {
+          "id_contato": 370,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "369-378-5477x72522",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 370,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-01-21",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 371,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-07-19",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 38,
+      "nome": "Judy Sanchez",
+      "cpf": "714-29-4915",
+      "dt_nascimento": "1979-08-14",
+      "endereco": "016 Bennett Mountains, Lake Albertburgh, NM 57374",
+      "email": "jacobsonsamantha@gmail.com",
+      "telefone": "974.014.8902",
+      "contatos": [
+        {
+          "id_contato": 380,
+          "tipo_contato": "Celular",
+          "valor_contato": "(339)845-4615",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 380,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-01-11",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 39,
+      "nome": "Donald Riddle",
+      "cpf": "503-30-5830",
+      "dt_nascimento": "2001-10-21",
+      "endereco": "2961 Yates Station Apt. 142, Dawsonberg, MS 42008",
+      "email": "davissherry@yahoo.com",
+      "telefone": "(412)126-7888x610",
+      "contatos": [
+        {
+          "id_contato": 390,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "039-261-4293x96856",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 391,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "001-218-501-6315x99965",
+          "descricao": "WhatsApp pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 390,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-02-12",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 391,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-07-27",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 40,
+      "nome": "Carolyn James",
+      "cpf": "143-35-4934",
+      "dt_nascimento": "1950-01-12",
+      "endereco": "26464 Patton Lake, Sherylfort, RI 26131",
+      "email": "tayloradam@yahoo.com",
+      "telefone": "965-756-9245x93752",
+      "contatos": [
+        {
+          "id_contato": 400,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "(819)956-0466x183",
+          "descricao": "WhatsApp pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 400,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-02-11",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 401,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-01-24",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 41,
+      "nome": "Krista Benton",
+      "cpf": "473-91-3435",
+      "dt_nascimento": "1971-01-13",
+      "endereco": "167 Cynthia Garden Suite 266, South Vickifort, MO 70541",
+      "email": "gibbsmichael@hotmail.com",
+      "telefone": "+1-113-529-0965x610",
+      "contatos": [
+        {
+          "id_contato": 410,
+          "tipo_contato": "Celular",
+          "valor_contato": "479-356-4651x93982",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 410,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-04-18",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 42,
+      "nome": "Ashley Sweeney",
+      "cpf": "664-14-2693",
+      "dt_nascimento": "1950-08-23",
+      "endereco": "USNS Black, FPO AP 21490",
+      "email": "omullen@yahoo.com",
+      "telefone": "+1-226-609-3796x6033",
+      "contatos": [
+        {
+          "id_contato": 420,
+          "tipo_contato": "Celular",
+          "valor_contato": "388-899-3756x798",
+          "descricao": "E-mail de trabalho"
+        },
+        {
+          "id_contato": 421,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "(507)146-1125",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 422,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "573-875-7177x5140",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 420,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-08-04",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 43,
+      "nome": "Mark Steele",
+      "cpf": "661-23-9092",
+      "dt_nascimento": "1962-11-16",
+      "endereco": "25790 Crane Oval Apt. 368, Ortizfort, VT 58677",
+      "email": "christopherjohnson@gmail.com",
+      "telefone": "043-842-7978x8191",
+      "contatos": [
+        {
+          "id_contato": 430,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "001-191-825-5371x47859",
+          "descricao": "WhatsApp pessoal"
+        },
+        {
+          "id_contato": 431,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "(969)155-7924x9912",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 432,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "134-125-2866x92966",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 430,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-03-29",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 44,
+      "nome": "Daniel Clark",
+      "cpf": "061-73-5748",
+      "dt_nascimento": "1962-03-01",
+      "endereco": "4494 Derek Terrace, Sellersview, SD 17132",
+      "email": "dustinmorris@juarez.biz",
+      "telefone": "294.667.1168x4577",
+      "contatos": [
+        {
+          "id_contato": 440,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "001-858-078-3613x40745",
+          "descricao": "WhatsApp pessoal"
+        },
+        {
+          "id_contato": 441,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "713-395-9629",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 440,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-08-04",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 45,
+      "nome": "Sherri Davis",
+      "cpf": "370-33-1351",
+      "dt_nascimento": "1966-03-16",
+      "endereco": "64361 Aaron Neck, East Brittneyhaven, NV 01718",
+      "email": "lisa62@jones-reyes.com",
+      "telefone": "554-262-2189",
+      "contatos": [
+        {
+          "id_contato": 450,
+          "tipo_contato": "Celular",
+          "valor_contato": "001-017-518-6363",
+          "descricao": "E-mail de trabalho"
+        },
+        {
+          "id_contato": 451,
+          "tipo_contato": "Celular",
+          "valor_contato": "454.589.2975x0017",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 452,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "1277063242",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 450,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-08-15",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 46,
+      "nome": "Rebecca Allen",
+      "cpf": "396-15-3950",
+      "dt_nascimento": "1944-07-05",
+      "endereco": "055 Paul Villages, Diazburgh, NJ 10068",
+      "email": "smithjason@fry.net",
+      "telefone": "866-618-8924x1418",
+      "contatos": [
+        {
+          "id_contato": 460,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "+1-275-326-9731x121",
+          "descricao": "Contato pessoal"
+        },
+        {
+          "id_contato": 461,
+          "tipo_contato": "Celular",
+          "valor_contato": "001-656-523-4138",
+          "descricao": "E-mail de trabalho"
+        },
+        {
+          "id_contato": 462,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "+1-994-043-8983x640",
+          "descricao": "WhatsApp pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 460,
+          "tipo_documento": "Passaporte",
+          "data_inclusao": "2024-05-16",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 461,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-09-27",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 47,
+      "nome": "Chad Smith",
+      "cpf": "509-45-8569",
+      "dt_nascimento": "2006-08-08",
+      "endereco": "52410 Roman Groves Apt. 491, Gibsonstad, NM 74803",
+      "email": "eric19@sharp.com",
+      "telefone": "3075622086",
+      "contatos": [
+        {
+          "id_contato": 470,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "285.691.4630",
+          "descricao": "E-mail de trabalho"
+        },
+        {
+          "id_contato": 471,
+          "tipo_contato": "Celular",
+          "valor_contato": "161.799.0421",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 470,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-03-03",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        },
+        {
+          "id_documento": 471,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-02-16",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 48,
+      "nome": "John Campbell",
+      "cpf": "866-40-5363",
+      "dt_nascimento": "1959-03-19",
+      "endereco": "53494 Steven Ramp Suite 383, North Sarah, IN 71482",
+      "email": "tapiaaaron@hotmail.com",
+      "telefone": "(413)836-7024x1038",
+      "contatos": [
+        {
+          "id_contato": 480,
+          "tipo_contato": "E-mail alternativo",
+          "valor_contato": "365-419-5180x23806",
+          "descricao": "Contato pessoal"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 480,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2024-03-24",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 49,
+      "nome": "Christine Parker",
+      "cpf": "272-16-1482",
+      "dt_nascimento": "1972-01-16",
+      "endereco": "903 Hernandez Station Apt. 568, Lake Kentburgh, MO 59771",
+      "email": "murraylinda@martinez.com",
+      "telefone": "(365)199-4101",
+      "contatos": [
+        {
+          "id_contato": 490,
+          "tipo_contato": "Celular",
+          "valor_contato": "001-571-918-2619x906",
+          "descricao": "E-mail de trabalho"
+        },
+        {
+          "id_contato": 491,
+          "tipo_contato": "WhatsApp",
+          "valor_contato": "+1-234-456-5574x31329",
+          "descricao": "Residencial"
+        },
+        {
+          "id_contato": 492,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "212-775-6185",
+          "descricao": "E-mail de trabalho"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 490,
+          "tipo_documento": "CNH",
+          "data_inclusao": "2023-12-18",
+          "conteudo": "BASE64_ENCODED_CONTENT"
+        }
+      ]
+    },
+    {
+      "id_cliente": 50,
+      "nome": "Jeffery Gomez",
+      "cpf": "192-36-4586",
+      "dt_nascimento": "1957-05-23",
+      "endereco": "99934 Jenkins Plaza, Brownview, DC 55450",
+      "email": "crystalpham@mayo.com",
+      "telefone": "875.985.6420x5930",
+      "contatos": [
+        {
+          "id_contato": 500,
+          "tipo_contato": "Telefone fixo",
+          "valor_contato": "+1-721-510-7029x6670",
+          "descricao": "Residencial"
+        }
+      ],
+      "documentos": [
+        {
+          "id_documento": 500,
+          "tipo_documento": "RG",
+          "data_inclusao": "2024-05-28",
           "conteudo": "BASE64_ENCODED_CONTENT"
         }
       ]
